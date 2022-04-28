@@ -13,6 +13,12 @@
 		637561E22818129E0026B862 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 637561E02818129E0026B862 /* Main.storyboard */; };
 		637561E4281812A00026B862 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 637561E3281812A00026B862 /* Assets.xcassets */; };
 		637561E7281812A00026B862 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 637561E5281812A00026B862 /* LaunchScreen.storyboard */; };
+		637561F0281825380026B862 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637561EE281825380026B862 /* SplashViewController.swift */; };
+		637561F1281825380026B862 /* SplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 637561EF281825380026B862 /* SplashViewController.xib */; };
+		637561F428182A7C0026B862 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637561F228182A7C0026B862 /* SettingViewController.swift */; };
+		637561F528182A7C0026B862 /* SettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 637561F328182A7C0026B862 /* SettingViewController.xib */; };
+		637561F8281A2AC50026B862 /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637561F6281A2AC50026B862 /* NotificationsViewController.swift */; };
+		637561F9281A2AC50026B862 /* NotificationsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 637561F7281A2AC50026B862 /* NotificationsViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		637561E3281812A00026B862 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		637561E6281812A00026B862 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		637561E8281812A00026B862 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		637561EE281825380026B862 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		637561EF281825380026B862 /* SplashViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SplashViewController.xib; sourceTree = "<group>"; };
+		637561F228182A7C0026B862 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		637561F328182A7C0026B862 /* SettingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingViewController.xib; sourceTree = "<group>"; };
+		637561F6281A2AC50026B862 /* NotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
+		637561F7281A2AC50026B862 /* NotificationsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotificationsViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +73,12 @@
 				637561DE2818129E0026B862 /* ViewController.swift */,
 				637561E02818129E0026B862 /* Main.storyboard */,
 				637561E3281812A00026B862 /* Assets.xcassets */,
+				637561EE281825380026B862 /* SplashViewController.swift */,
+				637561EF281825380026B862 /* SplashViewController.xib */,
+				637561F228182A7C0026B862 /* SettingViewController.swift */,
+				637561F328182A7C0026B862 /* SettingViewController.xib */,
+				637561F6281A2AC50026B862 /* NotificationsViewController.swift */,
+				637561F7281A2AC50026B862 /* NotificationsViewController.xib */,
 				637561E5281812A00026B862 /* LaunchScreen.storyboard */,
 				637561E8281812A00026B862 /* Info.plist */,
 			);
@@ -126,8 +144,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				637561E7281812A00026B862 /* LaunchScreen.storyboard in Resources */,
+				637561F528182A7C0026B862 /* SettingViewController.xib in Resources */,
 				637561E4281812A00026B862 /* Assets.xcassets in Resources */,
+				637561F9281A2AC50026B862 /* NotificationsViewController.xib in Resources */,
 				637561E22818129E0026B862 /* Main.storyboard in Resources */,
+				637561F1281825380026B862 /* SplashViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +159,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				637561F428182A7C0026B862 /* SettingViewController.swift in Sources */,
 				637561DF2818129E0026B862 /* ViewController.swift in Sources */,
 				637561DB2818129E0026B862 /* AppDelegate.swift in Sources */,
+				637561F8281A2AC50026B862 /* NotificationsViewController.swift in Sources */,
 				637561DD2818129E0026B862 /* SceneDelegate.swift in Sources */,
+				637561F0281825380026B862 /* SplashViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

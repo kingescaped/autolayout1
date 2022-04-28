@@ -13,7 +13,13 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
+    
+    override func viewDidAppear(_ animated: Bool) {
+            super.viewDidAppear(animated)
+            let splashVC = SplashViewController()
+            splashVC.modalPresentationStyle = .fullScreen
+            present(splashVC, animated: false, completion: nil)
+        }
 
 }
 
